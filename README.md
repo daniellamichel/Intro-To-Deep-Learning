@@ -48,21 +48,6 @@ class FiveLayerNet(nn.Module):
     def forward(self, x):
         return self.net(x)
 
-🚀 How to Run the Project
-
-1️⃣ Clone the Repository
-
-git clone https://github.com/daniellamichel/FashionMNIST-Classification.git
-cd FashionMNIST-Classification
-
-2️⃣ Install Dependencies
-
-pip install torch torchvision matplotlib
-
-3️⃣ Run the Training and Evaluation
-
-python train_model.py
-
 📊 Results
 
 The optimal epoch was identified based on accuracy trends.
